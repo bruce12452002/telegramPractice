@@ -7,9 +7,10 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
+
+// https://api.telegram.org/bot{token}/getMe
+// 一定要 https
 public class App extends TelegramLongPollingBot {
-
-
     @Override
     public String getBotToken() {
         return "850824662:AAHvBfsJNyL0wIhHKUbQxuNteH4eHRBa5PY";
